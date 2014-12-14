@@ -1,0 +1,88 @@
+---
+title: 'Module 1:  Introduction & Statistica'
+author: "Robert A. Stevens, robertandrewstevens@gmail.com"
+date: "December 8, 2014"
+output: pdf_document
+---
+
+**Typical Six Sigma Phase:**  Define
+
+**Six Sigma Green Belt Body of Knowledge Subtopic:**  Analyze customer data.
+
+**Six Sigma Green Belt Body of Knowledge Description:**  Use graphical, statistical, and qualitative tools to analyze customer feedback.
+
+# Homework
+
+## Textbook:
+
+Part II  S4/IEE Measure Phase from DMAIC [pages 65-70]  
+Part III  S4/IEE Analyze Phase from DMAIC (or Passive Analysis Phase) [pages 383-384]  
+Part IV  S4/IEE Improve Phase from DMAIC (or Proactive Testing Phase) [pages 547-548]  
+Part V  S4/IEE Control Phase from DMAIC and Application Examples [pages 667-668]  
+5.20	Example 5.1:  Improving a Process that has Defects  
+5.21	Example 5.2:  Reducing the Total Cycle Time of a Process  
+5.22	Example 5.3:  Improving a Service Process
+
+## Web Links:
+
+Towards Statistical Thinking for Decision Making
+
+http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm#rrstatthink
+
+Tufte’s Website:  The Work of Edward Tufte and Graphics Press
+
+http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Rs&topic_id=1&topic=Ask%20E%2eT%2e
+
+http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001yB&topic_id=1&topic=Ask+E%2eT%2e
+
+http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00001v&topic_id=1&topic=Ask%20E%2eT%2e
+
+http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001et&topic_id=1&topic=Ask%20E%2eT%2e
+
+## Problems:
+
+Import each tab from “Solder Skip Experiments.xls” to Statistica and save as separate files using the tab name in Excel.  Compare and contrast the 3 data sets.  That is, how are they similar and how are they different?
+
+Import the following Excel files to Statistica, explore and modify them as you desire, and save for future exercises:
+
+- Final Test Results Excluding Retests and Duplicates.xls
+
+- Levers testing_update.xls
+
+- Tester PHTESTER Data.xls
+
+- Tester TPHBOSCH 4606FL.xls
+
+## Introduction to Statistical Thinking for Decision Making
+
+by Professor Hossein Arsham
+
+http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm
+
+Today's good decisions are driven by data.  In all aspects of our lives, and importantly in the business context, an amazing diversity of data is available for inspection and analytical insight.  Business managers and professionals are increasingly required to justify decisions on the basis of data.  They need statistical model-based decision support systems.
+
+Statistical skills enable them to intelligently collect, analyze and interpret data relevant to their decision-making.  Statistical concepts and statistical thinking enable them to:
+
+- Solve problems in a diversity of contexts
+
+- Add substance to decisions
+
+- Reduce guesswork
+
+## Statistical Thinking 
+
+by ASQ Statistics Division, *Glossary & Tables for Statistical Quality Control* (1996)
+
+Statistical thinking is a philosophy of learning and action based on the following fundamental principles:
+
+- All work occurs in a system of interconnected processes,
+
+- Variation exists in all processes, and
+
+- Understanding and reducing variation are keys to success
+
+# References
+
+*Statistical Thinking:  Improving Business Performance* by Roger Hoerl and Ronald D. Snee
+
+*Understanding Variation* by Donald Wheeler

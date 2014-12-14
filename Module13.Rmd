@@ -1,0 +1,91 @@
+---
+title: "Module 13:  Accelerated Life Testing Analysis (ALTA) Introduction"
+author: "Robert A. Stevens, robertandrewstevens@gmail.com"
+date: "December 9, 2014"
+output: pdf_document
+---
+
+# Agenda
+
+- Overview
+
+- First Steps from the *ALTA 7 Software Training Guide* (pages 9-16)
+
+- Accelerated Testing Demonstration
+
+- Step-by-Step Examples from the *ALTA 7 Software Training Guide* (as many as time permits)
+
+# Homework
+
+Read **Textbook** sections listed below.
+
+Review **Web Links** listed below.
+
+Complete **Exercises** below.
+
+## Textbook:
+
+39.6  Accelerated Testing:  Discussion  
+39.7	High-Temperature Acceleration  
+39.8	Example 39.1:  High-Temperature Acceleration Testing  
+39.9	Eyring Model  
+39.10	Thermal Cycling:  Coffin-Manson Relationship  
+39.11	Model Selection:  Accelerated Testing
+
+## Web Links:
+
+NIST/SEMATECH e-Handbook of Statistical Methods Chapter 8:  Reliability
+
+http://www.itl.nist.gov/div898/handbook/ 
+
+ALTA 7
+
+http://www.reliasoft.com/alta/index.htm
+
+Accelerated Life Testing Reference
+
+http://www.weibull.com/acceltestwebcontents.htm
+
+## Exercises:
+
+Complete any Step-by-Step Examples in the *ALTA 7 Software Training Guide* not completed in class.
+
+Complete the Practice Questions in the *ALTA 7 Software Training Guide* on pages 111-115 and check your answers on pages 117 and 118.
+
+## References
+
+*Accelerated Testing and Validation:  Testing, Engineering, and Management Tools for Lean Development* by Alex Porter
+
+*ALTA Version 7 Accelerated Life Testing Reference* by ReliaSoft
+
+*ALTA Version 7 User’s Guide* by ReliaSoft
+
+Chapter 7 “Failure Models” in *Failure Modes and Mechanisms in Electronic Packages* by Viswanadham and Singh
+
+## Accelerated Testing Demonstration
+
+This simple paper clip experiment illustrates the principles behind accelerated life testing.  You will test three samples of paper clips at bends of different angles.  One angle represents the use stress level for the paper clip.  This is the stress level at which the paper clip is expected to perform under normal use conditions.  The other two angles represent accelerated stress levels for the paper clip.  These are stress levels that are more severe than those expected to be encountered during normal use conditions.
+
+**Objective:**  Determine the mean number of cycles-to-failure of a given paper clip.
+
+**Assumptions:**  The use cycles are assumed to be at a 45° bend.  The acceleration stress is assumed to be the angle to which we bend the clips, thus two accelerated bend stresses of 90° and 180° are used.
+
+Test a sample of six paper clips using the procedure for the 90° bend:
+
+1. Hold the clip by the longer, outer loop
+
+2. With the thumb and forefinger of the other hand, grasp the smaller, inner loop
+
+3. Pull the smaller, inner loop out and down 90° so that a right angle is formed as shown
+
+4. Continue to hold the clip by the longer, outer loop
+
+5. With the thumb and forefinger of the other hand, grasp the smaller, inner loop
+
+6. Push the smaller, inner loop up and in 90° so that the smaller loop is returned to the original upright position in line with the larger, outer loop as shown
+
+This completes one cycle. Repeat until the paper clip breaks.  Count and record the cycles-to-failure for each clip.
+
+Use a similar procedure to test samples of six paper clips each at both the 180° and 45° angles.  Different paper clips yield different results.  Use clips of similar size.  Jumbo clips, capable of enduring repeated bending, are used in this example.
+
+Source:  http://www.reliasoft.com/newsletter/1q2001/accelerated.htm
