@@ -1,0 +1,182 @@
+Module 2: Basic Statistics
+================
+Robert A. Stevens
+2025-11-10
+
+**Typical Six Sigma Phase:** Measure
+
+**Six Sigma Green Belt Body of Knowledge Subtopic:**
+
+- Drawing valid statistical conclusions
+
+- Central limit theorem and sampling distribution of the mean
+
+- Basic probability concepts
+
+- Types of data and measurement scales
+
+- Data collection methods
+
+- Techniques for assuring data accuracy and integrity
+
+- Probability distributions
+
+- Descriptive statistics
+
+**Six Sigma Green Belt Body of Knowledge Description:**
+
+- Distinguish between enumerative (descriptive) and analytical
+  (inferential) studies, and distinguish between a population parameter
+  and a sample statistic
+
+- Define the central limit theorem and describe its significance in the
+  application of inferential statistics for confidence intervals,
+  control charts, etc.
+
+- Describe and apply concepts such as independence, mutually exclusive,
+  multiplication rules, etc.
+
+- Identify and classify continuous (variables) and discrete (attributes)
+  data
+
+- Describe and define nominal, ordinal, interval, and ratio measurement
+  scales
+
+- Define and apply methods for collecting data such as check sheets,
+  coded data, etc.
+
+- Define and apply techniques such as random sampling, stratified
+  sampling, sample homogeneity, etc.
+
+- Describe and interpret normal, binomial, and Poisson, chi square,
+  Student’s t, and F distributions
+
+- Define, compute, and interpret measures of dispersion and central
+  tendency, and construct and interpret frequency distributions and
+  cumulative frequency distributions
+
+## Homework
+
+### Textbook:
+
+3.5 Sampling
+
+3.8 Sample Statistics (Mean, Range, Standard Deviation, and Median)
+
+3.9 Attribute versus Continuous Data Response
+
+3.17 Some Sampling Considerations
+
+5 Basic Tools \[Introduction only\]
+
+5.1 Descriptive Statistics
+
+5.5 Check Sheets
+
+6 Probability \[Introduction only\]
+
+6.1 Description
+
+6.2 Multiple Events
+
+6.3 Multiple-event Relationships
+
+7 Overview of Distributions and Statistical Processes \[Introduction
+only\]
+
+7.1 An Overview of the Application of Distributions
+
+7.2 Normal Distribution
+
+7.3 Example 7.1: Normal Distribution
+
+7.4 Binomial Distribution
+
+7.5 Example 7.2: Binomial Distribution - Number of Combinations and
+Rolls of Die
+
+7.6 Example 7.3: Binomial Distribution - Probability of Failure
+
+7.8 Poisson Distribution
+
+7.9 Example 7.4: Poisson Distribution
+
+7.15 Tabulated Probability Distribution: Chi-square Distribution
+
+7.16 Tabulated Probability Distribution: t Distribution
+
+7.17 Tabulated Probability Distribution: F Distribution
+
+7.21 Applications for Various Types of Distributions and Processes
+
+16.2 Central Limit Theorem
+
+17 Inferences: Continuous Response \[Introduction only\]
+
+17.1 Summarizing Sampled Data
+
+18 Inferences: Attribute (Pass/Fail) Response \[Introduction only\]
+
+18.1 Attribute Response Situations
+
+### Web Links:
+
+Descriptive Sampling Data Analysis
+
+<http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm#rrTopiinbuSt>
+
+Probability as a Confidence Measuring Tool for Statistical Inference
+
+<http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm#rrprobinInf>
+
+Elementary Concepts in Statistics
+
+<http://www.statsoft.com/textbook/stathome.html>
+
+Distribution Fitting
+
+<http://www.statsoft.com/textbook/stathome.html>
+
+### Problems:
+
+Read “What You Need to Know about Probability” from *Practical
+Statistical Tools for the Reliability Engineer*, pages 1-6.
+
+**Exercise 2-1:** Analyze Belt Life data located in “Module02 Basic
+Statistics.xls” tab “Belt A” in Statistica. Calculate:
+
+- Mean
+
+- Median
+
+- Standard Deviation
+
+- Variance
+
+- Range
+
+**Exercise 2-2:** The data in “Module02_Basic_Statistics.xls” tab
+“TAB4-1” contain the weights of 10 silicon wafers measured by 3
+operators. Which wafers have the highest average weight and which have
+the highest measurement variation? Which operators have the highest
+average weight readings and which have the highest measurement
+variation?
+
+**Exercise 2-3:** The data in “Module02_Basic_Statistics.xls” tab
+“APP7-A” contain oxide etch rates for 27 production runs, 6 wafers/run,
+9 sites/wafer. Identify which runs, wafers, and sites have the highest
+and lowest average values and variability?
+
+**Exercise 2-4:** A transformer (not the toy) has a Normal time to
+failure distribution with mean = 6250 hours and standard deviation =
+2600 hours and its warranty period is 4000 hours.
+
+a\. What is the proportion of failures at 4000 hours?
+
+b\. What is the proportion of survivors at 4000 hours, i.e., its
+reliability?
+
+**Exercise 2-5:** In reliability, it’s problematic to have failures
+occurring at times less than or equal to 0. For the information in
+Exercise 2-4, calculate the fraction of failures that is theoretically
+possible at or below time = 0.

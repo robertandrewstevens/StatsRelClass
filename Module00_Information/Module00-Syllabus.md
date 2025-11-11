@@ -1,0 +1,121 @@
+Statistics and Reliability Course Syllabus
+================
+Robert A. Stevens
+2025-11-10
+
+*The real voyage of discovery consists not in seeking new landscapes,
+but in having new eyes.* - Marcel Proust
+
+**Objective:** Be able to perform common statistical and reliability
+data analyses using Statistica software from StatSoft and Weibull++ and
+ALTA software from ReliaSoft.
+
+**Topics:** The statistics course content was chosen based on the ASQ
+Six Sigma Green Belt Body of Knowledge that can be accomplished in
+Statistica, and the reliability course content was chosen based on the
+ReliaSoft training guides for Weibull++ and ALTA.
+
+**Textbook:** *Implementing Six Sigma: Smarter Solutions Using
+Statistical Methods* (Second Edition) by Forrest W. Breyfogle III
+
+**Structure:** The course is divided into 13 modules, as shown below:
+
+## Module Topics \[Hours\] (Prerequisites)
+
+1.  Introduction & Statistica \[2\] (no prerequisites)
+
+2.  Basic Statistics \[2\] (1. Statistica)
+
+3.  Graphics \[2\] (2. Basic Statistics)
+
+4.  Statistical Process Control (SPC) \[2\] (3. Graphics)
+
+5.  Capability \[2\] (4. SPC)
+
+6.  Hypothesis Testing \[2\] (3. Graphics)
+
+7.  Analysis of Variance (ANOVA) \[2\] (6. Hypothesis Testing)
+
+8.  Regression \[2\] (7. ANOVA)
+
+9.  Measurement Systems Analysis (MSA) \[2\] (8. Regression)
+
+10. Design Of Experiments (DOE) \[2\] (8. Regression)
+
+11. Sample Size \[2\] (10. DOE)
+
+12. Weibull Introduction \[4\] (3. Graphics)
+
+13. ALTA Introduction \[8\] (10. DOE & 12. Weibull)
+
+Since class time is limited, homework will be assigned to reinforce the
+topics. Homework will consist of readings from the textbook and a few
+additional handouts, web links to explore, and data sets to analyze with
+Statistica, Weibull++ and ALTA.Students are encouraged to collect
+real-life work-related data sets for discussion throughout the course.
+
+## Additional Information
+
+### General Web Links
+
+Arsham’s Website: Statistical Thinking for Managerial Decision Making
+
+<http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm>
+
+National Institute of Standards & Technology (NIST)
+
+<http://www.technology.gov/Menu_NIST.htm>
+
+NIST/SEMATECH e-Handbook of Statistical Methods
+
+<http://www.itl.nist.gov/div898/handbook/>
+
+Reliability Engineering and Weibull Analysis Resources for the
+Reliability Professional
+
+<http://www.weibull.com/>
+
+ReliaSoft
+
+<http://www.reliasoft.com/>
+
+Sematech
+
+<http://www.sematech.org/>
+
+Six Sigma Green Belt Certification Body of Knowledge
+
+www.asq.org/certification/six-sigma-green-belt/references.html
+
+Statistica
+
+<http://www.statsoft.com/>
+
+Tufte’s Website: The Work of Edward Tufte and Graphics Press
+
+<http://www.edwardtufte.com/>
+
+### Journal or Web Articles
+
+“Boost Your Marketing ROI with Experimental Design” by Eric Almquist and
+Gordon Wyner, *Harvard Business Review*, 1 October 2001
+
+“Data ‘Sanity’: Statistical Thinking Applied to Everyday Data” by Davis
+Balestracci
+
+<http://deming.ces.clemson.edu/pub/den/deming_papers_a.htm>
+
+“Pitfalls of Data Analysis (or How to Avoid Lies and Damned Lies)” by
+Clay Helberg
+
+<http://my.execpc.com/~helberg/pitfalls/>
+
+“The New Mantra: MVT \[Multivariable Testing\]” by Rita Koselka,
+*Forbes*, March 11, 1996
+
+“The Role of Statistical Thinking in Management” by Lynne B. Hare, Roger
+W. Hoerl, John D. Hromi, and Ronald D. Snee, *Quality Progress*,
+February 1995
+
+“Variation, Management, and W. Edwards Deming” by Brian L. Joiner and
+Marie A. Guadard, *Quality Progress*, December 1990

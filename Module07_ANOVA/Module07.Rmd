@@ -1,0 +1,67 @@
+---
+title: "Module 7:  Analysis of Variance (ANOVA)"
+author: "Robert A. Stevens, robertandrewstevens@gmail.com"
+date: "December 8, 2014"
+output: pdf_document
+---
+
+**Typical Six Sigma Phase:**  Analyze
+
+**Six Sigma Green Belt Body of Knowledge Subtopic:**  Single-factor analysis of variance (ANOVA)
+
+**Six Sigma Green Belt Body of Knowledge Description:**  Define terms related to one-way ANOVAs and interpret their results and data plots.
+
+# Homework
+
+Read **Textbook** sections listed below.
+
+Review **Web Links** listed below.
+
+Complete **Exercises** below.
+
+## Textbook:
+
+24  Single-factor (One-way) Analysis of Variance (ANOVA) and Analysis of Means (ANOM) [Introduction only]  
+24.1	S4/IEE Application Examples:  ANOVA and ANOM  
+24.2	Application Steps  
+24.3	Single-factor Analysis of Variance Hypothesis Test  
+24.4	Single-factor Analysis of Variance Table Calculations  
+24.5	Estimation of Model Parameters  
+24.6	Unbalanced Data  
+24.7	Model Adequacy  
+24.8	Analysis of Residuals:  Fitted Value Plots and Data Transformations  
+24.9	Comparing Pairs of Treatment Means  
+24.10	Example 24.1:  Single-factor Analysis of Variance  
+25	Two-factor (Two-way) Analysis of Variance [Introduction only]  
+25.1	Two-factor Factorial Design  
+25.2	Example 25.1:  Two-factor Factorial Design
+
+## Web Links:
+
+ANOVA/MANOVA
+
+http://www.statsoft.com/textbook/stathome.html
+
+## Exercises:
+
+**Single-factor ANOVA:**  “Module07 ANOVA.xls” tab “TAB5-2” contains the pull strength (in grams) for the wires to connect the die of an integrated circuit to the lead frame for 10 units with five wires each.  The five wire locations are the same for all units.  Use ANOVA to identify whether there are statistically different units.  Check the assumptions, e.g. is the variance the same across all units.  If the assumptions hold and there are differences, which units are different?  
+
+**Two-factor ANOVA:**  “Module02 Basic Statistics.xls” tab “TAB4-1” contains the weights of 10 silicon wafers measured by 3 operators.  Use ANOVA to identify whether there are statistically different wafers, operators or a wafer-operator interaction.  Check the assumptions, e.g. is the variance the same across all combinations of wafer and operator.  If the assumptions hold and there are differences, which average values are different?  [This data was already processed and analyzed in Module 2 – if you saved it.]
+
+**Multi-factor ANOVA (Advanced):**  “Module02 Basic Statistics.xls” tab “APP7-A” contains oxide etch rates for 27 production runs, 6 wafers/run, 9 sites/wafer.  Use ANOVA to identify whether there are statistically significant factors.  Check the assumptions.  [This data was already processed and analyzed in Module 2 – if you saved it.]
+
+**Multi-factor ANOVA (Advanced):**  “Solder Skip Experiments.xls” contains the results of three experiments with:
+
+Opening:  ordered factor indicating the amount of clearance around the mounting pad (S < M < L). 
+
+Solder:  ordered factor indicating the amount of solder used (Thin < Thick). 
+
+Mask:  factor indicating which of 5 types of solder mask was used. The type and thickness of the material used for the mask were varied. The levels are A1.5, A3, A6, B3, and B6. 
+
+PadType:  factor indicating which of 10 mounting pads was used. The geometry and size of the mounting pad were varied. The levels are W4, D4, L4, D6, L6, D7, L7, L8, W9, and L9. 
+
+Panel:  factor indicating which of panels 1, 2 or 3 on a board is being counted. 
+
+Skips:  number of visible solder skips on a circuit board.
+
+Use ANOVA to identify whether there are statistically significant factors for all three experiments (separately, not combined).  Check the assumptions.  [This data was already processed and analyzed in Module 1 – if you saved it.]

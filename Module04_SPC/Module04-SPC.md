@@ -1,0 +1,923 @@
+Module 4: Statistical Process Control (SPC)
+================
+Robert A. Stevens
+2025-11-10
+
+**Typical Six Sigma Phase:** Control
+
+**Six Sigma Green Belt Body of Knowledge Subtopic:**
+
+- Objectives and benefits
+
+- Rational subgrouping
+
+- Selection and application of control charts
+
+- Analysis of control charts
+
+**Six Sigma Green Belt Body of Knowledge Description:**
+
+- Describe the objectives and benefits of SPC, including controlling
+  process performance, identifying special and common causes, etc.
+
+- Define and describe how rational subgrouping is used
+
+- Identify, select, construct, and apply the following types of control
+  charts: X-bar and R, X-bar and s, individuals and moving range (ImR /
+  XmR), median (X-tilde), p, np, c, and u
+
+- Interpret control charts and distinguish between common and special
+  causes using rules for determining statistical control
+
+## Homework
+
+Read **Textbook** sections listed below.
+
+Review **Web Links** listed below.
+
+Read handout “Understanding Variation: The Key to Managing Chaos”.
+
+Review **Statistical Process Control (SPC) Notes** after **Exercises**
+below.
+
+Read “Which Control Chart Should I Use?” from *Six Sigma Forum
+Magazine*, May 2006, pages 26-31.
+
+Complete **Exercises** below.
+
+### Textbook:
+
+3.3 Common Causes versus Special Causes and Chronic versus Sporadic
+Problems
+
+3.4 Example 3.1: Reacting to Data
+
+5.3 Control Chart
+
+10 Basic Control Charts \[Introduction only\]
+
+10.1 S4/IEE Application Examples: Control Charts
+
+10.6 Monitoring Processes
+
+10.7 Rational Sampling and Rational Subgrouping
+
+10.8 Statistical Process Control Charts
+
+10.9 Interpretation of Control Chart Patterns
+
+10.10 X-bar and R and X-bar and S Charts: Mean and Variability
+Measurements
+
+10.11 Example 10.2: X-bar and R Chart
+
+10.12 XmR Charts: Individual Measurements
+
+10.13 Example 10.3: XmR Charts
+
+10.14 X-bar and R versus XmR Charts
+
+10.15 Attribute Control Charts
+
+10.16 p Chart: Fraction Nonconforming Measurements
+
+10.17 Example 10.4: p Chart
+
+10.18 np Chart: Number of Nonconforming Items
+
+10.19 c Chart: Number of Nonconformities
+
+10.20 U Chart: Nonconformities per Unit
+
+10.21 Median Charts
+
+10.22 Example 10.5: Alternatives to p-Chart, np-Chart, c-Chart, and
+u-Chart Analyses
+
+10.25 Discussion of Process Control Charting at the Satellite Level and
+30,000-foot Level
+
+10.26 Control Charts at the 30,000-foot Level: Attribute Response
+
+10.27 XmR Chart of Subgroup Means and Standard Deviation: An Alternative
+to Traditional X-bar and R Charting
+
+10.28 Notes on the Shewhart Control Chart
+
+### Web Links:
+
+Quality Control Charts
+
+<http://www.statsoft.com/textbook/stathome.html>
+
+NIST/SEMATECH e-Handbook of Statistical Methods Chapter 6: Monitor
+
+<http://www.itl.nist.gov/div898/handbook/>
+
+**Exercises**
+
+1\. Create an I-MR chart for the data located in “Module04_SPC.xls” tab
+“ICT Yield”. Is the process that generates the data in a state of
+statistical control? Why or why not?
+
+2\. Create an I-MR chart for the data in tab “Ag R&A” in file
+“Module04_SPC.xls”. Is the process that generates the data in a state of
+statistical control? Why or why not? Is there any evidence of
+seasonality? Why or why not?
+
+3\. The data provided in “Module04_SPC.xls” tab “Instrument Panel” comes
+from an injection molding machine producing a molded part, an instrument
+panel for an automobile. There are four types of defects: flash, splay,
+voids, and short shots. If a part has any of these defects, it is
+considered to be defective. Data from 30 consecutive shifts producing
+100 parts each were collected. Is this process in control?
+
+4\. The yield data for 19 batches of PCB production are provided in
+“Module04_SPC.xls” tab “PCB Yield” along with two measures of PCB
+complexity: minimum line-width and number of layers. Create a control
+chart for the yield data. Is the process in control? If not, can you
+find any assignable causes?
+
+5\. A Supplier Quality Engineer was visiting a supplier’s plant that was
+having some quality problems and was, as a matter of course, reviewing
+each process running in the plant. In one instance control charts were
+being maintained for a process making electrical resistors, and the SQE
+was given the charts to study. The process had already been deemed to be
+showing excellent long-term stability, and the sample measurements were
+being routinely collected and charted on the floor. The quality
+characteristic being measured is the resistance, the nominal (target)
+value being 100 ohms, with a specification of +/- 2 ohms. The data is
+provided in “Module04_SPC.xls” tab “Electrical Resistor Data”.
+
+- Make a control chart treating the four measurements as a rational
+  subgroup (n = 4). Is the process in control? Is there any reason to be
+  concerned about this process?
+
+- Now make control charts for each of the four “subgroups” individually.
+  Are these in control?
+
+- Compare the control charts for each “subgroup” of data. What do you
+  observe?
+
+## Statistical Process Control (SPC) Notes
+
+### Inspection
+
+- Inspection is the process of checking a part or product for defective,
+  defects or both
+
+- Inspection should take place at three major stages
+
+  - Incoming materials
+  - In-process
+  - Finished goods
+
+- Inspection methods may be classified as involving variables or
+  attribute analysis
+
+### Functions of Inspection
+
+- Checking and certifying the quality of incoming materials
+
+- Aiding in maintaining process control
+
+- Checking finished goods
+
+- Serving in an advisory capacity to prevent or correct quality problems
+
+### Variable Inspection
+
+- Variable inspection is concerned with continuous data: Ratio,
+  interval, nominal
+
+- Examples: Weight, Length
+
+- Precise measurements
+
+- Continuous scale
+
+### Attribute Inspection
+
+- Attribute inspection is concerned with discrete data: Qualitative,
+  binary
+
+- Acceptance limits established
+
+  - Go / No Go
+  - Min / Max Standards
+
+- Usually less time
+
+- Usually less skill required
+
+- Usually less costly equipment
+
+### Process Control
+
+- The effort to control a process and its output consists of four
+  elements
+
+1.  The process
+
+2.  Information about performance
+
+3.  Action on process
+
+4.  Action on output
+
+### Process Control Charts
+
+- Developed in 1924 by Dr. Walter Shewhart of Bell Laboratories
+
+- Control charts do not control anything
+
+- The main applications of these charts include:
+
+  - To determine the real capability of the process
+  - To guide modifications for improving output quality
+  - To monitor output
+
+### Preparation and Analysis
+
+- Gather data
+
+- Calculate control limits
+
+- Interpret for process control
+
+- Interpret for process capability
+
+- Interpret for parts acceptance
+
+### Types of Control Charts
+
+- Variable control charts
+  - Critical characteristics
+  - More precise control
+- Attribute control charts
+  - Variable data measurements are not possible and/or practical
+  - Too many characteristics
+  - 100% inspection
+
+### Question To Be Answered
+
+- What characteristic(s) is to be investigated?
+
+- What testing device(s) or gage(s) will be required?
+
+- What type of chart will accomplish the purpose?
+
+  - Variable charts (X-bar, Individual, R, S, Moving Range)
+  - Attribute (P, NP, C, U, D)
+
+- What size sample should be drawn?
+
+  - Risk of false alarms / failure to detect
+  - Minimum within sample variation
+  - Maximum sample to sample variation
+  - Cost of data collection and analysis
+
+- How should the sample be drawn and how often?
+
+- When is the control chart ready for implementation?
+
+  - Does historical data exist?
+  - Is it reliable?
+
+### Statistical Control Conditions
+
+- Points beyond the control limits
+
+- Runs
+
+- Trends within the control limits
+
+- Cyclical patterns within trend
+
+- Too much or too little variability
+
+### Introduction to Control Charts
+
+- Variation arises from the fact that no two items in a population are
+  identical
+
+- We distinguish between two causes of variation
+
+  - Common: the process’s inherent statistical behavior, unless you
+    fundamentally change it
+  - Assignable: due to specific, “findable” causes
+
+- A goal of quality control is to detect the presence of assignable
+  causes and then to eliminate them
+
+- A process is in a state of statistical control when it is operating
+  without assignable cause of variation
+
+### Examples of Causes
+
+- Assignable causes:
+  - Too wear
+  - Machine set up wrong
+  - Gage out of calibration
+  - Batch of defective material
+- Common causes:
+  - Room temperature
+  - Humidity
+  - Small gage variation
+
+### Purpose of Control Charts
+
+- Get process in control first: Eliminate assignable causes
+
+- Then improve it: Reduce common causes
+
+### Comments on Histograms
+
+- Histogram analysis cannot capture when a process is or is not in
+  statistical control
+
+- The method most often used and which has been highly successful for
+  more than 50 years is Control Charting
+
+### Control Chart Form
+
+- All control charts have the following form:
+
+  - Time Dimension
+  - Centerline (CL)
+  - Upper Control Limit (UCL)
+  - Lower Control Limit (LCL)
+
+- How do we know when variation as displayed on the control chart is not
+  random?
+
+  - When a plotted point on the chart falls outside the control limits
+  - When there is any systematic pattern displayed by the points
+  - Trends, runs, cycles
+
+- Control limits are NOT specification limits; they are based on the
+  data and derived from statistical theory
+
+- The control limits are based on the idea when a point falls outside,
+  it may be due to a rare random cause, but it is a much better bet that
+  the cause is an assignable one
+
+- When a chart indicates control, we cannot say that assignable causes
+  are not present, but there is no overwhelming evidence for their
+  presence, so no action should be taken
+
+### Containment
+
+- When an assignable cause is indicated, its identification should be
+  sought
+
+- In many cases, production lines are stopped
+
+### Purposes of Control Charts
+
+- To analyze past quality data for the purpose of assessing the present
+  state of control
+
+- To compare the observed results in an ongoing process against a given
+  standard (historical control limit) to monitor process
+
+### Frequently Asked Question
+
+- If the process is in control, why should we continue to do control
+  charting?
+  - There maybe process improvement
+  - You would want to know this
+  - You may not have detected all assignable causes
+  - They may be lurking
+
+### Attribute Control Charts
+
+- The NP chart is an “attribute” control chart
+
+  - A chart for which each plotted point represents discrete data, in
+    this case the number of nonconforming items in each subgroup
+
+- Another major type of “attribute” control chart is the C chart on
+  which each plotted point represents the total number of
+  nonconformities or “defects” in each subgroup
+
+- The calculated limits for a P chart are based on four assumptions of
+  the binomial counts and the data must fit these assumptions
+
+  - Data are based on a set of n distinct items
+  - These items are classified into two distinct groups based on
+    possessing, or not possessing, some attribute
+  - The probability that any one item possesses the attribute is the
+    same for all items
+  - Any item that possesses the attribute is not affected by those
+    before or after
+
+### Variable Control Charts
+
+- In some cases, you should use variable control charts, i.e. charts for
+  continuous process data
+
+  - X-bar chart
+  - R Chart
+  - S Chart
+
+- X-bar/R and X-bar/S charts require much smaller samples than P and NP
+  charts
+
+- When the measured characteristic is continuous, are constructed in
+  pairs
+
+  - X-bar chart paired with R chart
+  - X-bar chart paired with S chart
+
+- X-bar chart depicts the variably about the process center
+
+- R and S charts depict the behavior of the variability of the process
+
+  - The variability of the variability
+
+- On the X-bar chart, the plotted points are the subgroup averages
+
+- On the R chart, they are the subgroup ranges
+
+- On the S chart, they are subgroup standard deviations
+
+  - Use when n \>= 10
+
+### Central Limit Theorem (CLT)
+
+- The mean of the distribution of sample means is very close to the
+  population mean
+
+- The standard deviation of the distribution of sample means is the
+  population standard deviation reduced by a function of the square root
+  of the sample size
+
+- The distribution of sample means is very close to the Normal
+  distribution
+
+- Since we plot sample means on an X-bar chart, the CLT must be taken
+  into consideration
+
+- Why don’t we just plot individual observations?
+
+- Why bother to plot subgroup means?
+
+### Reasons
+
+- Since the variability parameter is Sigma/sqrt(n) vs. Sigma for the
+  individual observations, the X-bar chart will be more stable and more
+  sensitive to changes in the mean
+
+- Even if the underlying process distribution is not Normal, the CLT
+  tells us that the sample means are approximately Normal
+
+- For the R and S charts, we need subgroups anyway to monitor
+  variability
+
+  - There is no variability in an individual observation
+
+### Specifications
+
+- The construction of the X-bar chart is based on the statistical
+  properties of X-bar, i.e., CLT
+
+- In particular, the center line and control limits HAVE NOTHING TO DO
+  WITH SPECIFICATIONS
+
+- The purpose is to learn about the process – so let it reveal itself
+
+  - The process “knows” nothing about your specs
+
+- The specification limits do not appear on the control chart
+
+  - There is no relationship between specification limits and control
+    limits
+  - Products are in or out of specifications
+  - Processes are in or out of control
+
+### Procedure for X-bar and R Charts
+
+- Collect sufficient data for the first charts
+
+  - Usually want at least 20 subgroups
+
+- Compute CL, UCL and LCL for the X-bar/R or X-bar/S charts
+
+- Plot averages on the X-bar chart and ranges on the R chart
+
+- Some of the points may lie outside the control limits
+
+- Identify and eliminate these assignable causes and then eliminate
+  corresponding data
+
+- Look for other indications of assignable causes, like runs, trends, or
+  other systematic patterns
+
+- Re-compute centerline and control limits
+
+  - Repeat until no further refinement seems necessary
+
+- The resulting chart provides the bases for constructing a control
+  chart for monitoring future production
+
+### Special Patterns
+
+- Special control charts patterns are characteristic of:
+  - Certain processes
+  - Incorrect control limits
+
+### Typical Patterns
+
+- Natural pattern
+
+- Sudden shift in level
+
+- Trend: This is a characteristic of a process that wears something out
+  or uses something up
+
+- Stratification
+
+  - This too good to be true
+  - If an improvement reduces the process variation, re-compute the
+    limits
+
+- Mixtures
+
+  - This pattern may come from two different machines or material lots
+  - Always keep a separate chart for each workstation
+  - This often happens in batch processes
+
+- Over-adjustment Systematic Variation
+
+  - Note how adjacent points are on opposite sides of the center line
+
+- Cyclic Systematic Variation
+
+### What Do We Mean by a “In-Control” Process?
+
+- A process “in control” is simply one that runs smoothly enough to be
+  predictable
+  - We can use pats process behavior to predict future process
+    performance
+  - We do not have to like the process performance that we are able to
+    predict
+- Common-cause processes are usually in control
+
+### What Do We Mean by an “Out-of-Control” Process?
+
+- A process “out of control” is one so erratic as to be unpredictable
+  - We work to get an out-of-control process in control by first
+    removing the special causes
+  - Once special cause are removed and the process is subsequently
+    smoothed out, we can assess the latent performance of the process
+
+### Tests for Special Causes
+
+1.  One (1) point outside the 3-sigma control limits
+
+2.  Eight (8) points in a row on same side of center line: Process
+    average has shifted
+
+3.  Six (6) points in a row, all increasing or all decreasing: Process
+    average has drifted
+
+4.  Fourteen (14) points in a row, alternating up and down: Two
+    systematically alternating causes
+
+5.  Two (2) out of 3 points in a row more than 2-sigma from center line
+    (same side): Early warning of a process shift
+
+6.  Four (4) out of 5 points in a row more than 1-sigma from the center
+    line (same side): Early warning of a process shift
+
+7.  Fifteen (15) points in a row within 1-sigma of the center line
+    (either side): Smaller variability than expected
+
+8.  Eight (8) points in a row more than 1-sigma from the center line
+    (either side): Bi-modal distribution of means
+
+Note: R Chart, S Chart, Moving Range Chart, and the attribute control
+charts (P, NP, C, and U Charts) only support tests 1 through 4
+
+### Western Electric Zone Tests
+
+- Using all the zone tests increases the chance of detecting a process
+  shift
+
+- It also increases the false alarm rate
+
+### Variable Control Charts
+
+- Control charts are useful for tracking process statistics over time
+  and detecting the presence of special causes
+
+- A special cause results in variation that can be detected and
+  controlled
+
+  - Examples: supplier, shift, or day of the week differences
+
+- Common cause variation, on the other hand, is variation that is
+  inherent in the process
+
+- A process is in control when only common causes - not special causes -
+  affect the process output
+
+- Once a process is in control, control charts can be used to estimate
+  process parameters needed to determine capability
+
+- Variables control charts, described here, plot statistics from
+  measurement data, such as length or pressure
+
+  - Attributes control charts plot count data, such as the number of
+    defects or defective units
+
+- A process statistic, such as a subgroup mean, individual observation,
+  or weighted statistic, is plotted versus sample number or time
+
+- A “center line” is drawn at the average of the statistic being plotted
+  for the time being charted
+
+- Two other lines — the upper and lower control limits — are drawn, by
+  default, 3\*Sigma above and below the center line
+
+- A process is in control when most of the points fall within the bounds
+  of the control limits, and the points do not display any nonrandom
+  patterns
+
+- The “tests for special causes” offered with control charting software
+  will detect nonrandom patterns in your data
+
+- You can change the threshold values for triggering a test failure
+
+### Example
+
+- Suppose you work at an automobile manufacturer in a department that
+  assembles engines
+
+- One of the parts, a camshaft, must be 600 ± 2 mm long to meet
+  engineering specifications
+
+- There has been a chronic problem with camshaft length being out of
+  specification
+
+- Your supervisor wants to run X and R charts to monitor this
+  characteristic, so for a month, you collect a total of 100
+  observations (20 samples of 5 camshafts each) from all the camshafts
+  used at the plant, and 100 observations from each of your suppliers
+
+- First you will look at camshafts produced by Supplier 2
+
+### Example
+
+- Suppose you work at a car assembly plant in a department that
+  assembles engines
+
+- In an operating engine, parts of the crankshaft move up and down a
+  certain distance from an ideal baseline position
+
+  - AtoBDist is the distance (in mm) from the actual (A) position of a
+    point on the crankshaft to the baseline (B) position
+
+- To ensure production quality, you took five measurements each working
+  day, from September 28 through October 15, and then ten per day from
+  the 18th through the 25th
+
+- You want to draw X and R charts to track the process level through
+  that time period and test for the presence of special causes
+
+### Control Charts for Individual Observations
+
+- Control charts for individual observations are typically used in
+  situations where the data cannot easily be subgrouped
+  - When measurements are expensive (destructive testing)
+  - For continuous output that is homogenous
+  - For productions that have long cycle time
+
+### I-MR-R/S (Between/Within) Chart
+
+- When collecting data in subgroups, random error may not be the only
+  source of variation
+
+- For example, if you sample 5 parts in close succession every hour, the
+  only differences should be due to random error
+
+- Over time, the process could shift or drift, so the next sample of 5
+  parts may be different from the previous sample
+
+- Under these conditions, the overall process variation is due to both
+  between-sample variation and random error
+
+- Variation within each sample also contributes to overall process
+  variation
+
+- Suppose you sample one part every hour, and measure 5 locations across
+  the part
+
+- While the parts can vary hour to hour, the measurements taken at the 5
+  locations can also be consistently different in all parts
+
+- Perhaps one location almost always produces the largest measurement,
+  or is consistently smaller
+
+- This variation due to location is not accounted for, and the
+  within-sample standard deviation no longer estimates random error, but
+  actually estimates both random error and the location effect
+
+- This results in a standard deviation that is too large, causing
+  control limits that are too wide, with most points on the control
+  chart placed very close to the centerline
+
+- This process appears to be too good, and it probably is
+
+- You can solve this problem by using I-MR-R/S (Between/Within) to
+  create three separate evaluations of process variation
+
+  - Stability of process location
+  - Between-sample component of variation
+  - Within-sample component of variation
+
+- I-MR-R/S (Between/Within) Chart produces a three-way control chart
+  using both between-subgroup and within-subgroup variations
+
+- An I-MR-R/S chart consists of
+
+  - Individuals chart (I)
+  - Moving Range chart (MR)
+  - R chart or S chart (R/S)
+
+### Example
+
+- Suppose you are interested in determining whether or not a process
+  that coats rolls of paper with a thin film is in control
+
+- You are concerned that the paper is being coated with the correct
+  thickness of film and that the coating is evenly distributed across
+  the length of the roll
+
+- You take 3 samples from 15 consecutive rolls and measure coating
+  weight
+
+- Because you are interested in whether or not the coating is even
+  throughout a roll and whether each roll is correctly coated, you use
+  Minitab to create an I-MR-R/S chart
+
+### Other Variable Control Chart Methods
+
+- Z-MR (for short runs)
+
+- EWMA
+
+- Moving Average
+
+- CUSUM
+
+- Zone
+
+### Attribute Control Charts
+
+- Attributes control charts are similar in structure to variables
+  control charts, except that they plot statistics from count data
+  rather than measurement data
+
+- For instance, products may be compared against a standard and
+  classified as either being defective or not
+
+- Products may also be classified by their number of defects
+
+- As with variables control charts, a process statistic, such as the
+  number of defects, is plotted versus sample number or time
+
+- A center line is drawn at the average of the statistic being plotted
+  for the time being charted
+
+- Two other lines — the upper and lower control limits — are drawn, by
+  default, 3\*Sigma above and below the center line
+
+- A process is in control when most of the points fall within the bounds
+  of the control limits and the points do not display any nonrandom
+  patterns
+
+- The “tests for special causes” will detect nonrandom patterns
+
+- If you like, you can change the threshold values for triggering a test
+  failure
+
+- Special causes are causes arising from outside the system that can be
+  corrected
+
+  - Examples: supplier, shift, or day of the week differences
+
+- Common cause variation, on the other hand, is variation that is
+  inherent or a natural part of the process
+
+- A process is in control when only common causes — not special causes —
+  affect the process output
+
+### Control Charts for Defectives
+
+- You can compare a product to a standard and classify it as being
+  defective or not
+  - For example, a length of wire either meets the strength requirements
+    or not
+- The control charts for defectives are:
+  - P Chart, which charts the proportion of defectives in each subgroup
+  - NP Chart, which charts the number of defectives in each subgroup
+
+### Control Charts for Defects
+
+- When a product is complex, a defect does not always result in a
+  defective product
+
+- Here it is sometimes more convenient to classify a product by the
+  number of defects it contains
+
+- For example, you might count the number of scratches on the surface of
+  an appliance
+
+- The control charts for defects are:
+
+  - C Chart, which charts the number of defects in each subgroup: Use
+    when the subgroup size is constant
+  - U Chart, which charts the number of defects per unit sampled in each
+    subgroup: Use when the subgroup size varies
+
+- For example, if you were counting the number of flaws on the inner
+  surface of a television screen, C Chart would chart the actual number
+  of flaws while U Chart would chart the number of flaws per square inch
+  sampled
+
+### Attribute Control Chart Summary
+
+- P Chart: charts the proportion of defectives in each subgroup
+
+- NP Chart: charts the number of defectives in each subgroup
+
+- C Chart: charts the number of defects in each subgroup - subgroup size
+  is constant
+
+- U Chart: charts the number of defects per unit sampled in each
+  subgroup - subgroup size varies
+
+### P Chart Example
+
+- Suppose you work in a plant that manufactures picture tubes for
+  televisions
+
+- For each lot, you pull some of the tubes and do a visual inspection
+
+- If a tube has scratches on the inside, it is rejected
+
+- If a lot has too many rejects, you will do a 100% inspection on that
+  lot
+
+- A P chart can define when you need to inspect the whole lot
+
+### NP Chart Example
+
+- Analyze previous P Chart example using an NP Chart
+
+### C Chart Example
+
+- Suppose you work for a linen manufacturer
+
+- Each 100 square yards of fabric is allowed to contain a certain number
+  of blemishes before it is rejected
+
+- For quality control, you want to track the number of blemishes per 100
+  square yards over a period of several days, to see if your process is
+  behaving predictably
+
+### U Chart Example
+
+- Analyze previous C Chart example using a U Chart
+
+- Assume sample size = 100
+
+### Myths About Shewhart’s Charts
+
+*Data must be normally distributed before they can be placed upon a
+control chart.*
+
+- Normality of the data is neither a prerequisite nor a consequence of a
+  state of statistical control
+
+*Control chart works because of the Central Limit Theorem.*
+
+- CLT does not apply to subgroup ranges; CLT is irrelevant to 3-sigma
+  limits
+
+*Observations must be independent – data with autocorrelation are
+inappropriate for control charts.*
+
+- Virtually all data coming from a production process will display some
+  amount of autocorrelation
+
+*Data must be in control before one can plot them on a control chart.*
+
+- The purpose of control charts is the detection of lack of control
+
+from *Understanding Statistical Process Control* by Wheeler & Chambers
+
+**Control charts are “robust” – both in statistical terms and practical
+terms.**

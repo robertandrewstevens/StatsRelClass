@@ -1,0 +1,130 @@
+---
+title: "Module 6:  Hypothesis Testing"
+author: "Robert A. Stevens, robertandrewstevens@gmail.com"
+date: "December 8, 2014"
+output: pdf_document
+---
+
+**Typical Six Sigma Phase:**  Analyze
+
+**Six Sigma Green Belt Body of Knowledge Subtopic:**
+
+- Tests for means, variances, and proportions
+
+- Paired-comparison tests
+
+- Chi square
+
+**Six Sigma Green Belt Body of Knowledge Description:**
+
+- Define, compare, and contrast statistical and practical significance.
+
+- Define and describe paired-comparison parametric hypothesis tests.
+
+- Define and interpret chi square and use it to determine statistical significance.
+
+# Homework
+
+Read **Textbook** sections listed below.
+
+Review **Web Links** listed below.
+
+Review handout.
+
+Complete **Exercises** below.
+
+Time permitting, read “Hypothesis Testing:  Guilty or Innocent.”
+
+## Textbook:
+
+3.11  Hypothesis Testing and the Interpretation of Analysis of Variance Computer Outputs  
+16	Confidence Intervals and Hypothesis Tests [Introduction only]  
+16.1	Confidence Interval Statements  
+16.3	Hypothesis Testing  
+16.4	Example 16.1:  Hypothesis Testing  
+17.4	Confidence Intervals on the Mean and Hypothesis Test Criteria Alternatives  
+17.5	Example 17.2:  Confidence Intervals on the Mean  
+17.7	Standard Deviation Confidence Interval  
+17.8	Example 17.4:  Standard Deviation Confidence Statement  
+18.4	Confidence Intervals for Attribute Evaluations and Alternative Sample Size Considerations  
+19	Comparison Tests:  Continuous Response [Introduction only]  
+19.1	S4/IEE Application Examples:  Comparison Tests  
+19.2	Comparing Continuous Data Responses  
+19.4	Comparing Two Means  
+19.5	Example 19.1:  Comparing the Means of Two Samples  
+19.6	Comparing Variances of Two Samples  
+19.7	Example 19.2:  Comparing the Variance of Two Samples  
+19.10	Paired Comparison Testing  
+19.11	Example 19.4:  Paired Comparison Testing  
+20	Comparison Tests:  Attribute (Pass/Fail) Response [Introduction only]  
+20.1	S4/IEE Application Examples:  Attribute Comparison Tests  
+20.2	Comparing Attribute Data  
+20.4	Comparing Proportions  
+20.5	Example 20.1:  Comparing Proportions  
+20.9	Example 20.4:  Differences in Two Proportions
+
+## Web Links:
+
+Hypothesis Testing: Rejecting a Claim 
+
+http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm#rRejeClaim
+
+Hypotheses Testing for Means and Proportions 
+
+http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm#rtestaverperce
+
+Tests for Statistical Equality of Two or More Populations
+
+http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm#rtestAvovaKS
+
+Applications of the Chi-square Statistic
+
+http://home.ubalt.edu/ntsbarsh/Business-stat/opre504.htm#rtestothercl
+
+NIST/SEMATECH e-Handbook of Statistical Methods Chapter 7:  Compare
+
+http://www.itl.nist.gov/div898/handbook/ 
+
+Basic Statistics
+
+http://www.statsoft.com/textbook/stathome.html
+
+## Exercises:
+
+**Exercise 4-1:**  Suppose someone calculated 2-sided 90% confidence limits, but you really wanted a 1-sided LCL.  Without recalculating the confidence limits, what would be the equivalent confidence level for a 1-sided LCL?  This question is not an arbitrary test of your abilities; many software packages do this all the time, and you, as the user, need to know how to interpret the results.
+
+**Exercise 5-1:**  You want to find out if your drive belts meet the customer specification:  average life of 10 years.  You take a sample of 10 belts and compute a sample mean of 11.13 years and standard deviation of 2.45 years.  Using 90% confidence (Alpha = 0.10), is there evidence that the belts are not meeting the average life spec?  The data is in “Module06 Hypothesis Testing.xls” tab “Belt A”
+
+**Exercise 5-2:**  Calculate the p-value for Exercise 5-1 using the Probability Distribution Calculator.
+
+**Exercise 5-3:**  Use the Confidence Interval approach to answer Exercise 5-1.
+
+**Exercise 5-5:**  You want to find out if your drive belts exceed the customer specification:  average life of 10 years.  You take a sample of 10 belts and compute a sample mean of 11.13 years and standard deviation of 2.45 years.  Using 90% confidence (Alpha = 0.10), is there evidence that the belts exceed the average life spec?  Assume that the population is normally distributed.
+
+**Exercise 5-6:**  Calculate the p-value for Exercise 5-5.  Assume that the population is normally distributed.
+
+**Exercise 5-7:**  Repeat Exercise 5-5 using the confidence interval approach.  Assume that the population is normally distributed.
+
+**Exercise 6-1:**  You want to compare 2 drive belt designs, A and B.  A is a new design which is cheaper than B.  Ten test vehicles were randomly selected and one belt of each design was put on either the left or right side of the drive shaft to account for any differences in wear, as opposed to installing two of the same belt design on a vehicle.  Determine whether the two drive belt designs have the same average lifetime using the 2-Sample t-Test Assuming Equal Variances.  Test with 90% confidence (Alpha = 0.10).  The data is in “Module06 Hypothesis Testing.xls” tab “Belt A&B”
+
+**Exercise 6-2:**  Calculate the p-value for Exercise 6-1 using Statistica’s Probability Distribution Calculator.
+
+**Exercise 6-4:**  Instead of determining whether the two drive belt designs have the same average lifetime, determine whether B is better than A.  Test with 90% confidence (Alpha = 0.10).
+
+**Exercise 6-5:**  Calculate the p-value for Exercise 6-4 using Statistica’s Probability Distribution Calculator.
+
+**Exercise 6-6:**  After examining the drive belt life test procedure, you decide to account for potential differences in wear on the left and right sides of the drive shaft.  Does this knowledge change your conclusion? Why?  Test with 90% confidence (Alpha = 0.10).
+
+**Exercise 6-7:**  Calculate the p-value for Exercise 6-6 using Statistica’s Probability Distribution Calculator.
+
+**Exercise 6-8:**  Calculate the confidence interval for Exercise 6-6.
+
+**Exercise 6-9:**  Accounting for potential differences in wear on the left and right sides of the drive shaft, can you show that drive belt design B is better than design A?  Test with 90% confidence (Alpha = 0.10).
+
+**Exercise 6-10:**  Calculate the p-value for Exercise 6-9 using Statistica’s Probability Distribution Calculator.
+
+**Exercise 6-11:**  Calculate the confidence interval for Exercise 6-9.
+
+**Exercise 6-12:**  Determine whether the variation in drive belt life is the same for designs A and B.  Test with 90% confidence (Alpha = 0.10).
+
+**Exercise 6-13:**  Calculate the p-value for Exercise 6-12 using Statistica’s Probability Distribution Calculator.

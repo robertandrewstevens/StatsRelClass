@@ -1,0 +1,199 @@
+---
+title: "Module 3: Graphics"
+author: "Robert A. Stevens"
+date: "`r Sys.Date()`"
+output: github_document
+---
+
+**Typical Six Sigma Phase:**
+
+- Measure
+
+- Analyze
+
+**Six Sigma Green Belt Body of Knowledge Subtopic:**
+
+- Graphical methods
+
+- Multi-vari studies
+
+**Six Sigma Green Belt Body of Knowledge Description:**
+
+- Depict relationships by constructing, applying and interpreting diagrams and charts such as stem-and-leaf plots, box-and-whisker plots, run charts, scatter diagrams, Pareto charts, etc.
+
+- Depict distributions by constructing, applying and interpreting diagrams such as histograms, normal probability plots, etc.
+
+- Create and interpret multi-vari studies to interpret the difference between positional, cyclical, and temporal variation; apply sampling plans to investigate the largest sources of variation
+
+## Homework
+
+### Textbook:
+
+3.6	Simple Graphic Presentations
+
+3.7	Example 3.2: Histogram and Dot Plot
+
+5.2	Run Chart (Time Series Plot)
+
+5.4	Probability Plot
+
+5.5	Pareto Chart
+
+5.19 Scatter Diagram (Plot of Two Variables)
+
+8 Probability Plotting and Hazard Plotting [Introduction only]
+
+8.1	S4/IEEE Application Examples: Probability Plotting
+
+8.2	Description
+
+8.3	Probability Plotting
+
+8.4	Example 8.1: PDF, CDF, and the a Probability Plot
+
+8.5	Probability Plot Positions and Interpretation of Plots
+
+8.8	Summarizing the Creation of Probability and Hazard Plots
+
+13.5 Data Relationship Matrix
+
+15 Visualization of Data [Introduction only]
+
+15.1 S4/IEE Application Examples: Visualization of Data
+
+15.2 Multi-vari Charts
+
+15.3 Example 15.1: Multi-vari Chart of Injection-molding Data
+
+15.4 Box Plot
+
+15.5 Example 15.2: Plots of Injection-molding Data
+
+19.8 Comparing Populations using a Probability Plot
+
+19.9 Example 19.3: Comparing Responses using a Probability Plot
+
+23.2 Scatter Plot (Dispersion Graph)
+
+### Web Links:
+
+NIST/SEMATECH e-Handbook of Statistical Methods Chapter 1:  Explore
+
+http://www.itl.nist.gov/div898/handbook/ 
+
+Graphical Techniques (Selected Topics in Graphical Analytic Techniques) 
+
+http://www.statsoft.com/textbook/stathome.html
+
+Tufte's Website:  The Work of Edward Tufte and Graphics Press
+
+http://www.edwardtufte.com/
+
+### Problems:
+
+Read handout "Statistical Rules of Thumb".
+
+Review Notes below.
+
+Do additional problems that follow the Notes.
+
+### Notes
+
+**Graphical Excellence**
+
+by Edward R. Tufte, *The Visual Display of Quantitative Information* (page 13)
+
+Excellence in statistical graphics consists of complex ideas communicated with clarity, precision, and efficiency.  Graphical displays should
+
+- show the data
+
+- induce the viewer to think about the substance rather than about methodology, graphic design, the technology of graphic production, or something else
+
+- avoid distorting what the data have to say
+
+- present many numbers in a small space
+
+- make large data sets coherent
+
+- encourage the eye to compare different pieces of data
+
+- review the data at several levels of detail, from a broad overview to the fine structure
+
+- serve a reasonably clear purpose: description, exploration, tabulation, or decoration
+
+- be closely integrated with the statistical and verbal descriptions of a data set
+
+![](poster_OrigMinard.gif){width=100%}
+
+Probably the best statistical graphic ever drawn, this map by Charles Joseph Minard portrays the losses suffered by Napoleon's army in the Russian campaign of 1812. Beginning at the Polish-Russian border, the thick band shows the size of the army at each position. The path of Napoleon's retreat from Moscow in the bitterly cold winter is depicted by the dark lower band, which is tied to temperature and time scales.
+
+http://www.edwardtufte.com/tufte/posters
+
+**Pareto Principle:** "The 80/20 Rule means that in anything a few (20 percent) are vital and many (80 percent) are trivial. In Pareto's case it meant 20 percent of the people owned 80 percent of the wealth. In Juran's initial work he identified 20 percent of the defects causing 80 percent of the problems... You can apply the 80/20 Rule to almost anything, from the science of management to the physical world."
+
+http://management.about.com/cs/generalmanagement/a/Pareto081202.htm
+
+**Multi-vari Studies**
+
+- Multi-vari charts are a way of presenting analysis of variance data in a graphical form providing a "visual" alternative to analysis of variance (ANOVA)
+
+- A Multi-vari study is a pre-experiment to determine whether the major variation is positional, cyclical, or temporal
+
+- Helps to reduce a large number of unrelated causes of variation to a family of related causes (positional, cyclical, or temporal)
+
+- Data is collected for a short period of time in a nonrandom fashion and analyzed to determine how the process is running in its natural state - a quick snapshot of the process
+
+- Identifies inherent process capabilities and a first look of the process stability over time
+
+**The Method of Multi-vari**
+
+- Select at least three families of variation:
+    + Cyclical
+    + Positional
+    + Temporal
+
+- Sample (above families):
+    + No randomization
+    + 3 to 5 consecutive pieces
+    + 2-5 measurements per piece
+    + at least three times
+
+- Use graphical analysis to analyze
+
+**Multi-vari Summary**
+
+- Always study the data in its natural state - non-random fashion
+
+- Assess the variation that occurs within a piece, piece-to-piece and time-to-time
+
+- The goal of Multi-vari studies is to quickly reduce the large number of possible causes of process variation to a vital few
+    + This will allow the team to focus on the main families of variation
+    + Then these can be investigated in a Design Of Experiment (DOE)
+
+### Exercises
+
+1\. **Univariate Graphics:** Graphically analyze Belt Life data located in "Module02_Basic_Statistics.xls" tab "Belt A" in Statistica using:
+
+- Histogram - with and without a superimposed Normal PDF
+
+- Normal Probability Plot
+
+- Box Plot
+
+Is the Normal distribution appropriate for this data set? [This data was already processed and analyzed in Module 2 - if you saved it.]
+
+2\. **Univariate Graphics:** Create a run chart for the data located in "Module03 Graphics.xls" tab "ICT Yield". Use the Month as the Case Name.
+
+3\. **Bivariate Graphics:** Create a scatter plot for the data located "Module03 Graphics.xls" tab "Table 8-10 Paired Data". This is from Practical Statistical Tools for the Reliability Engineer, page 81.
+
+4\. **Multivariate Graphics:** The data in "Module02_Basic_Statistics.xls" tab "TAB4-1" contain the weights of 10 silicon wafers measured by 3 operators.  Create a chart which simultaneously shows which wafers have the highest average variation and which operators have the highest average variation.[This data was already processed and analyzed in Module 2 - if you saved it.]
+
+5\. **Pareto Charts:** Using the data in tab "Op Interface Switch" in file "Module03 Graphics.xls", make a Pareto chart of the data and determine which project(s) should be initiated to reduce operator interface switch warranty using the Pareto principle.
+
+6\. **Pareto Charts:** StatSoft provided over 200 data sets with Statistica in the directory:
+
+`C:\Program Files\StatSoft\STATISTICA 7\Examples\Datasets`
+
+Make Pareto charts with the data in "Circuits.sta" and "Computers.sta".
+
+7\. **Multi-vari Charts (pseudo):** The data in "Module02 Basic Statistics.xls" tab "APP7-A" contain oxide etch rates for 27 production runs, 6 wafers/run, 9 sites/wafer. Graphically identify the largest source of variation. [This data was already processed and analyzed in Module 2 - if you saved it.]

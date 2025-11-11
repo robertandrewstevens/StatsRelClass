@@ -1,0 +1,69 @@
+---
+title: "Module 12:  Weibull Introduction"
+author: "Robert A. Stevens, robertandrewstevens@gmail.com"
+date: "December 9, 2014"
+output: pdf_document
+---
+
+# Agenda
+
+- Overview
+
+- First Steps from the *Weibull++ 7 Software Training Guide* (pages 7-14)
+
+- Weibull Data and Analysis Demonstration
+
+- Step-by-Step Examples from the *Weibull++ 7 Software Training Guide* (as many as time permits)
+
+# Homework
+
+Read **Textbook** sections listed below.
+
+Review **Web Links** listed below.
+
+Complete **Exercises** below.
+
+## Textbook:
+
+39  Reliability Testing/Assessment:  Overview [Introduction only]  
+39.1	Product Life Cycle  
+39.2	Units  
+39.3	Repairable Versus Nonrepairable Testing  
+39.4	Nonrepairable Device Testing  
+39.5	Repairable System Testing  
+41	Reliability Testing/Assessment:  Nonrepairable Devices [Introduction only]  
+41.1	Reliability Test Considerations for a Nonrepairable Device  
+41.2	Weibull Probability Plotting and Hazard Plotting  
+41.3	Example 41.1:  Weibull Probability Plot for Failure Data  
+41.4	Example 41.2:  Weibull Hazard Plot with Censored Data  
+41.5	Nonlinear Data Plots  
+41.6	Reduced Sample Size Testing:  Weibull Distribution  
+41.7	Example 41.3:  A Zero Failure Weibull Test Strategy  
+41.8	Lognormal Distribution  
+41.9	Example 41.4:  Lognormal Probability Plot Analysis
+
+## Web Links:
+
+NIST/SEMATECH e-Handbook of Statistical Methods Chapter 8:  Reliability
+
+http://www.itl.nist.gov/div898/handbook/ 
+
+Weibull++ 7
+
+http://www.reliasoft.com/Weibull/index.htm
+
+Life Data Analysis Reference
+
+http://www.weibull.com/lifedatawebcontents.htm
+
+## Exercises:
+
+Complete any Step-by-Step Examples in the *Weibull++ 7 Software Training Guide* not completed in class.
+
+Complete the Practice Questions in the *Weibull++ 7 Software Training Guide* on pages 85-89 and check your answers on pages 91-96.
+
+## References
+
+*Weibull++ Version 7 Life Data Analysis Reference* by ReliaSoft
+
+*Weibull++ Version 7 User’s Guide* by ReliaSoft

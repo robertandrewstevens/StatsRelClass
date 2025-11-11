@@ -1,0 +1,91 @@
+---
+title: "Module 10:  Design of Experiments (DOE)"
+author: "Robert A. Stevens, robertandrewstevens@gmail.com"
+date: "December 8, 2014"
+output: pdf_document
+---
+
+**Typical Six Sigma Phase:**  Improve
+
+**Six Sigma Green Belt Body of Knowledge Subtopic:** Basic terms, Main effects
+
+**Six Sigma Green Belt Body of Knowledge Description:**
+
+- Define and describe basic DOE terms such as independent and dependent variables, factors and levels, response, treatment, error, repetition, and replication.
+
+- Interpret main effects and interaction plots.
+
+# Homework
+
+Read **Textbook** sections listed below.
+
+Review **Web Links** listed below.
+
+Complete **Exercises** below.
+
+## Textbook:
+
+3.12  Experimentation Traps  
+3.14	Example 3.4:  Experimentation Trap – Lack of Randomization  
+3.15	Example 3.5:  Experimentation Trap – Confused Effects  
+3.16	Example 3.6:  Experimentation Trap – Independently Designing and Conducting an Experiment  
+27	Benefiting from Design of Experiments (DOE) [Introduction only]  
+27.1	Terminology and Benefits  
+27.2	Example 27.1:  Traditional Experimentation  
+27.3	The Need for DOE  
+27.4	Common Excuses for Not Using DOE  
+28	Understanding the Creation of Full and Fractional Factorial 2^k DOEs [Introduction only]  
+28.1	S4/IEE Application Examples:  DOE  
+28.2	Conceptual Explanation:  Two-level Full Factorial Experiments and Two-factor Interactions  
+28.3	Conceptual Explanation:  Saturated Two-level DOE  
+29	Planning 2^k DOEs [Introduction only]  
+29.1	Initial Thoughts When Setting Up a DOE  
+29.2	Experiment Design Considerations  
+29.4	Experiment Design Considerations:  Choosing Factors and Levels  
+29.5	Experiment Design Considerations:  Factor Statistical Significance  
+29.6	Experiment Design Considerations:  Experiment Resolution  
+29.7	Blocking and Randomization  
+29.8	Curvature Check  
+30	Design and Analysis of 2^k DOEs [Introduction only]  
+30.1	Two-level DOE Design Alternatives  
+30.2	Designing a Two-level Fractional Experiment Using Tables M and N  
+30.3	Determining Statistically Significant Effects and Probability Plotting Procedure  
+30.4	Modeling Equation Format for a Two-level DOE  
+30.5	Example 30.1:  A Resolution V DOE  
+30.7	Example 30.2:  A DOE Development Test
+
+## Web Links:
+
+Experimental Design (Industrial DOE)
+
+http://www.statsoft.com/textbook/stathome.html
+
+NIST/SEMATECH e-Handbook of Statistical Methods Chapter 5:  Improve
+
+http://www.itl.nist.gov/div898/handbook/ 
+
+## Exercises:
+
+1. Review the “Communicating Design of Experiments (DOE) to Non-Statisticians” handout and rework the two examples using the data in tabs “F=MA” and “V=IR” in “Module10 DOE.xls” to reproduce the analysis as you do so.
+
+2.  Use Statistica to create a DOE with the following characteristics:
+
+- Number of factors = 3
+
+- Temp (Low = 120, High = 160)
+
+- Press (Low = 40, High = 80)
+
+- Conc (Low = 15.0, High = 30.0)
+
+- Resolution = FULL (8 runs)
+
+- Number of center points = 4 
+
+[Your DOE design should match the one shown in Question 3.]
+
+3.  Use Statistica to analysis the following DOE data and determine an appropriate transfer function, i.e. Y = f(X’s).  [The data is provided in “Module10 DOE.xls” tab “DFSS Pre-work” – you do not need to retype it.]
+
+4. Analyze the data in “Example 30.2:  A DOE Development Test” (pages 603 to 607).  There are three response variables to analyze.  For each one, what are the important factors and what is the modeling equation?  The data is provided in “Module10 DOE.xls” tab “Example 30.2”.
+
+5. Analyze the PCB experiment shown at the beginning of the session.  The data is provided in “Module10 DOE.xls” tab “PCB”.
